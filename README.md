@@ -1,11 +1,9 @@
-# Git-battle ReactJS
-
-[Demo](https://git-battle-korol-mariia.vercel.app/)
+# Git-battle Redux
+[Demo](https://git-battle-redux.vercel.app/)
 
 This app was created using the GitHub API to offer users fast and easy access to repositories.
 
 - Users can filter repositories by programming language or through a search bar.
-- The app includes query parameters that enable saving previous searches even after refreshing the page.
 - Users can participate in "battles" between their friends or other repositories, comparing their popularity based on the number of followers or stars.
 - This functionality provides an effective way to gauge the popularity of repositories on GitHub.
 
@@ -14,9 +12,8 @@ This app was created using the GitHub API to offer users fast and easy access to
 I used:
 
 - ReactJS: functional components and hooks
+- Redux
 - React-router-dom
-- Yup to validate the searchline
-- SASS
 - GITHUB API
 - Axios
 - Material-UI

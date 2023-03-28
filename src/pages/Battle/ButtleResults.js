@@ -1,4 +1,5 @@
-import { useEffect, memo } from 'react';import { useSelector, useDispatch } from 'react-redux';
+import { useEffect, memo } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { getBattle } from '../../state/battle/battle.thunk';
 import { setHandleRestAction } from '../../state/battle/battle.actions';

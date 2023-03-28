@@ -1,4 +1,5 @@
-import { useState, useCallback, memo } from 'react';import { useDispatch, useSelector } from 'react-redux';
+import { useState, useCallback, memo } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import debounce from 'lodash/debounce';
 import {
   setNameAction,
